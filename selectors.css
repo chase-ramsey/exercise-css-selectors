@@ -1,4 +1,57 @@
+/*-__________ Top-level styles ___________-*/
+
 body {
 	margin: 0;
 	padding: 0;
+	background: #f2f2f2;
+	font-family: sans-serif;
 }
+
+
+/*-__________ Header styles __________-*/
+
+header {
+	border: 1px solid #faa;
+	padding: 0;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	float: right;
+	margin: 30px 100px;
+	font-size: 1.5em;
+}
+
+nav a {
+	color: #77f;
+	text-decoration: none;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/*-__________ Class styles __________-*/
+
+.disabled {
+	color: grey;
+}
+
+a > .disabled {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
+
+
+
